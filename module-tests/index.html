@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
     <style>
         body {
             font-family: "Source Sans 3", sans-serif;
@@ -36,8 +37,8 @@ config file:  /opt/homebrew/etc/nginx/servers/js-test.com
 directory:  /usr/local/var/www/js-test.com
 error log:   /opt/homebrew/var/log/nginx/error.log
 
-start server: sudo nginx
+start server: `sudo nginx`
 test server config: `sudo nginx -t`
-copy files into server: ` sudo cp -R ./ /usr/local/var/www/js-test.com/`
+copy files into server: `sudo cp -R ./ /usr/local/var/www/js-test.com/`
 reload server: `sudo nginx -s reload`
  -->
